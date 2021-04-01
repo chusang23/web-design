@@ -1,7 +1,41 @@
-all {
-    list-style: none;
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #4423AA;
 }
 
 .navbar__title {
+    display: flex;
+    color: white;
+}
 
+.host {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.CLOUD {
+    font-size: 15px;
+    padding: 8px 12px;
+}
+
+.navbar__button {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__button li {
+    padding: 8px 15px;
 }
