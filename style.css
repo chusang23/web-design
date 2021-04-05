@@ -23,11 +23,13 @@ a {
 .host {
     font-size: 30px;
     padding-left: 10px;
+    text-transform: uppercase;
 }
 
 .CLOUD {
     font-size: 15px;
     padding: 8px 12px;
+    text-transform: uppercase;
 }
 
 .navbar__button {
@@ -37,5 +39,23 @@ a {
 }
 
 .navbar__button li {
-    padding: 8px 15px;
+    padding: 8px 20px;
+}
+
+.login {
+    padding: 8px 20px;
+    background-color: #4423AA;
+    border-color: white;
+    color: white;
+}
+
+.navbar__button {
+    display: flex;
+}
+
+.signup {
+    padding: 8px 20px;
+    background-color: #11BCD4;
+    border: none;
+    color: white;
 }
