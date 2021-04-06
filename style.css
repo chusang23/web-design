@@ -1,5 +1,12 @@
+:root {
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
 body {
     margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    background-image: url(../web-design/image/banner-bg.jpeg);
 }
 
 a {
@@ -12,7 +19,6 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
-    background-color: #4423AA;
 }
 
 .navbar__title {
@@ -43,8 +49,8 @@ a {
 }
 
 .login {
+    background-color: rgba( 255, 255, 255, 0 );
     padding: 8px 20px;
-    background-color: #4423AA;
     border-color: white;
     color: white;
 }
@@ -58,4 +64,15 @@ a {
     background-color: #11BCD4;
     border: none;
     color: white;
+}
+
+.domain {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    list-style: none;
+    display: flex;
 }
